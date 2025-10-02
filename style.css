@@ -72,3 +72,7 @@ nav, li, ul
   margin-bottom:4px;
   margin-right:4px;
 }
+header p
+{
+  margin-bottom: 4px;
+}

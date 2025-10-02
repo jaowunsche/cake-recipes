@@ -70,3 +70,8 @@ nav
   text-align: center;
   background-color: #e9e9e9ce;
 }
+nav, li
+{
+  display:inline;
+  margin:4px;
+}

@@ -1,8 +1,3 @@
-body, a, p, h1, h2, div, section
-{
-  text-decoration: none;
-  color: black;
-}
 header
 {
   padding-top: 8px;
@@ -25,7 +20,7 @@ section
   background-color: #E9E9E9CE;
   padding: 5px 0px 5px 0px;
 }
-#recipes div, p, h1
+div
 {
   width: 40%;
   padding: 3px 0px;
@@ -34,12 +29,13 @@ section
   box-shadow: 5px 5px 5px gray;
   margin-top: 5px;
   margin-bottom: 5px;
+  border-radius: 5%;
 }
-#recipes, div, h2
+div h2
 {
   margin: 2px;
 }
-html
+a
 {
   text-decoration: none;
   color: black;
@@ -65,23 +61,13 @@ li:hover
 color:red;
 font-size:20pt;
 }
+nav
+{
+  background-color: #E9E9E9CE;
+  box-shadow: 5px 5px 5px gray;
+}
 .logo
 {
   text-align: center;
   background-color: #e9e9e9ce;
-}
-nav, li, ul
-{
-  display:inline;
-  margin-top:4px;
-  margin-bottom:4px;
-  margin-right:4px;
-}
-header p
-{
-  margin-bottom: 4px;
-}
-#por, div
-{
-  box-shadow: none;
 }

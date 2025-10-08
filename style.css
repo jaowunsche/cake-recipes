@@ -20,7 +20,7 @@ section
   background-color: #E9E9E9CE;
   padding: 5px 0px 5px 0px;
 }
-div
+#recipes div
 {
   width: 40%;
   padding: 3px 0px;
@@ -30,7 +30,7 @@ div
   margin-top: 5px;
   margin-bottom: 5px;
 }
-div h2
+#recipes, div, h2
 {
   margin: 2px;
 }
@@ -75,4 +75,8 @@ nav, li, ul
 header p
 {
   margin-bottom: 4px;
+}
+#por, div
+{
+  box-shadow: none;
 }

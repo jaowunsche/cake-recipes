@@ -53,8 +53,3 @@ li:hover
 color:red;
 font-size:20pt;
 }
-body, header, main, footer, a, h1, h2, p, li, ul
-{
-	text-decoration: none;
-	color: black;
-}

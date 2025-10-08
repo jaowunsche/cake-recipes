@@ -1,6 +1,7 @@
-body a p h1 h2
+body, a, p, h1, h2, div, section
 {
   text-decoration: none;
+  color: black;
 }
 header
 {

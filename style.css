@@ -83,7 +83,7 @@ h2:hover
 }
 .hero {
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))
-  , url('brasao.png') no-repeat center center/cover;
+  , url('favicon.png') no-repeat center center/cover;
   text-align: center;
   padding: 6rem 2rem;
   color: #fff;

@@ -39,6 +39,10 @@ section
   margin-bottom: 5px;
   border-radius: 5%;
 }
+#reci h2, img, a
+{
+  display:inline;
+}
 #reci h2
 {
   margin: 2px;

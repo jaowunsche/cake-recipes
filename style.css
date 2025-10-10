@@ -70,6 +70,7 @@ h2:hover
 .menu li
 {
   display: inline;
+  margin-top: 4px;
 }
 .menu li, a:hover
 {

@@ -36,7 +36,7 @@ section
 #reci
 {
   width: 20%;
-  padding: 3px 0px;
+  padding: 10px 0px;
   justify-self: center;
   background-color: #FFFFFFCE;
   box-shadow: 5px 5px 5px gray;
@@ -50,7 +50,7 @@ section
 }
 #reci h2
 {
-  margin: 2px;
+  margin-top: 6px;
 }
 #reci a, p, h2, img
 {
@@ -113,7 +113,7 @@ h2:hover
 #imgs img
 {
   width:50px;
-  margin-rigth: 4px;
+  margin-right: 4px;
 }
 #imgs img
 {
@@ -150,4 +150,20 @@ footer
 footer a
 {
   text-decoration:none;
+}
+.scale:hover
+{
+  display: inline-block;
+  transform: scale(1.4);
+  transition: font-size 0.5s ease;
+  transition:0.5s;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#reci a:hover
+{
+  display: block;
+  transform: scale(1.1);
+  transition: font-size 0.5s ease;
+  transition:0.5s;
 }

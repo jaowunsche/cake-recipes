@@ -102,23 +102,14 @@ h2:hover
   width:13%;
   padding:4px;
 }
-#contatos img
+#imgs img
 {
   width:50px;
+  margin-rigth: 4px;
 }
-#contatos p
-{
-  position:relative;
-  font-size:12pt;
-  bottom:25pt;
-}
-#contatos img, p
+#imgs img
 {
   display:inline;
-}
-#footer
-{
-  background-color:#e2e2e2;
 }
 footer h3
 {

@@ -2,6 +2,11 @@ body a
 {
   color: black;
 }
+body a:hover
+{
+  transform: scale(1.4);
+  transition:0.5s;
+}
 header
 {
   padding-top: 8px;

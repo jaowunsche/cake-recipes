@@ -139,3 +139,7 @@ footer
   content:url("facebook_2.png");
   transition: 0.5s;
 }
+footer a
+{
+  text-decoration:none;
+}

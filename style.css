@@ -119,3 +119,23 @@ footer
 {
   background-color:#e2e2e2;
 }
+.imagem1:hover
+{
+  content:url("instagram_2.png")
+  transition: 0.5s;
+}
+.imagem2:hover
+{
+  content:url("pinterest_2.png")
+  transition: 0.5s;
+}
+.imagem3:hover
+{
+  content:url("x_1.png")
+  transition: 0.5s;
+}
+.imagem4:hover
+{
+  content:url("facebook_2.png")
+  transition: 0.5s;
+}

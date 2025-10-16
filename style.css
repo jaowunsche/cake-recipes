@@ -92,3 +92,39 @@ h2:hover
   padding: 6rem 2rem;
   color: #fff;
 }
+#contatos
+{
+  text-align:left;
+  background-color:#f2f2f2;
+  margin:3px;
+  border: 2px solid #cccccc;
+  border-radius:20%;
+  width:13%;
+  padding:4px;
+}
+#contatos img
+{
+  width:50px;
+}
+#contatos p
+{
+  position:relative;
+  font-size:12pt;
+  bottom:25pt;
+}
+#contatos img, p
+{
+  display:inline;
+}
+#footer
+{
+  background-color:#e2e2e2;
+}
+footer h3
+{
+  margin-top: 8px;
+}
+footer
+{
+  background-color:#e2e2e2;
+}

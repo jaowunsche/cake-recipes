@@ -74,6 +74,7 @@ footer h3
 }
 h2:hover
 {
+  transform: scale(1.4);
   color: red;
   transition: 0.5s;
 }

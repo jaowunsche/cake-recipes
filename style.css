@@ -80,7 +80,7 @@ h2:hover
 .menu li, a:hover
 {
   color: red;
-  font-size: 12pt;
+  transition: 0.5s;
 }
 .deku
 {

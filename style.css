@@ -70,6 +70,7 @@ footer h3
 h2:hover
 {
   color: red;
+  transition: 0.5s;
 }
 .menu li
 {

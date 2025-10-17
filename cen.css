@@ -1,4 +1,7 @@
-
+html
+{
+  background-color: #faebd7;
+}
 header
 {
   padding-top: 8px;
@@ -21,18 +24,22 @@ section
   background-color: #FAEFE0;
   padding: 5px 0px 5px 0px;
 }
-div
+#content
 {
-  width: 30%;
-  padding: 3px 0px;
+  width:20rem;
+  padding: 10px 5px;
   justify-self: center;
   background-color: #F8E4CA;
   box-shadow: 5px 5px 5px gray;
   margin-top: 5px;
   margin-bottom: 5px;
-  padding-bottom: 15pt;
+  border-radius: 1rem;
 }
-div h2
+#content h2, img, a
+{
+  display:inline;
+}
+#content h2
 {
   margin: 2px;
   font-size: 15pt;
@@ -45,6 +52,7 @@ margin: 12pt;
 img
 {
  border-radius: 5%; 
+ max-width: 16rem;
 }
 footer
 {
@@ -62,6 +70,46 @@ header a:hover, h1:hover
 {
   color: red;
   display: block;
+  transform: scale(1.1);
+  transition: font-size 0.5s ease;
+  transition:0.5s;
+}
+#imgs img
+{
+  width:50px;
+  margin-right: 4px;
+}
+#imgs img
+{
+  display:inline;
+}
+footer h3
+{
+  margin-top: 8px;
+}
+.imagem1:hover
+{
+  content:url("instagram_2.png");
+  transition: 0.5s;
+}
+.imagem2:hover
+{
+  content:url("pinterest_2.png");
+  transition: 0.5s;
+}
+.imagem3:hover
+{
+  content:url("x_1.png");
+  transition: 0.5s;
+}
+.imagem4:hover
+{
+  content:url("facebook_2.png");
+  transition: 0.5s;
+}
+h3 a:hover
+{
+  display: inline-block;
   transform: scale(1.1);
   transition: font-size 0.5s ease;
   transition:0.5s;

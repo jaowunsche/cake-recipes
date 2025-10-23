@@ -99,7 +99,7 @@ h2:hover
 }
 .hero {
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))
-  , url('favicon.png') no-repeat center center/cover;
+  , url('background_bg.png') no-repeat center center/cover;
   text-align: center;
   padding: 6rem 2rem;
   color: #fff;

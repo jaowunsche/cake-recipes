@@ -40,7 +40,7 @@ section
 #reci
 {
   width:20rem;
-  height:17rem;
+  height:18.5rem;
   padding: 10px 5px;
   justify-self: center;
   background-color: #F8E4CA;
@@ -176,7 +176,8 @@ footer a
 }
 #reci:hover
 {
-  display: block;
+  display: inline-block;
+  vertical-align: top;
   transform: scale(1.1);
   transition: font-size 0.5s ease;
   transition:0.5s;

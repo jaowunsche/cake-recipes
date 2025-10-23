@@ -97,6 +97,7 @@ h2:hover
 {
   margin-top: 8px;
   background-image:url('background_bl.png');
+  background-repeat:no-repeat;
 }
 .hero {
   text-align: center;

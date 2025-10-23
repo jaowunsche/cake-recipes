@@ -40,21 +40,22 @@ section
 #reci
 {
   width:20rem;
+  height:17rem;
   padding: 10px 5px;
   justify-self: center;
   background-color: #F8E4CA;
   box-shadow: 5px 5px 5px gray;
-  margin-top: 5px;
-  margin-bottom: 5px;
   border-radius: 5%;
+  margin: 1rem;
+}
+main #reci
+{
+  display:inline-block;
+  vertical-align: top;
 }
 #reci h2, img, a
 {
   display:inline;
-}
-#reci h2
-{
-  margin-top: 6px;
 }
 #reci a, p, h2, img
 {

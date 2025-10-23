@@ -99,17 +99,6 @@ h2:hover
   margin-bottom:1rem;
   color:#000000;
 }
-.btn
-{
-  display:inline-block;
-  background-color:#FAEBD7BA;
-  color:black;
-}
-.btn:hover
-{
-    background-color:#000000A0;
-    color:#FAEBD7;
-}
 .deku
 {
   margin-top: 8px;

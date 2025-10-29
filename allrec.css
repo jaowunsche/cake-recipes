@@ -1,6 +1,10 @@
 html
 {
-  background-color: #faebd7;
+  background-color:#faebd7;
+}
+main
+{
+  background-color:#FAEFE0;
 }
 header
 {
@@ -9,7 +13,7 @@ header
   margin-bottom: 3px;
   text-align: center;
   width: 100%;
-  background-color: #faebd7;
+  background-color:#faebd7;
   box-shadow: 5px 5px 5px gray;
 }
 header h1
@@ -24,42 +28,18 @@ section
   background-color: #FAEFE0;
   padding: 5px 0px 5px 0px;
 }
-#content
-{
-  width:20rem;
-  padding: 10px 5px;
-  justify-self: center;
-  background-color: #F8E4CA;
-  box-shadow: 5px 5px 5px gray;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  border-radius: 1rem;
-}
-#content h2, img, a
-{
-  display:inline;
-}
-#content h2
-{
-  margin: 2px;
-  font-size: 15pt;
-  margin-bottom: 15pt;
-}
-li
-{
-margin: 12pt;
-}
 img
 {
  border-radius: 5%; 
- max-width: 16rem;
+ width:18rem;
+  height:11rem;
 }
 footer
 {
-  background-color: #faebd7;
+  background-color:#faebd7;
   width: 100%;
-  text-align: center;
   padding-top: 8px;
+  text-align:center;
 }
 a
 {
@@ -113,4 +93,58 @@ h3 a:hover
   transform: scale(1.1);
   transition: font-size 0.5s ease;
   transition:0.5s;
+}
+#titleingre, #passoa
+{
+  position:relative;
+  border-radius:2rem;
+  width:10rem;
+  height:2rem;
+  text-align:center;
+  justify-self:center;
+  background-color: #F8E4CA;
+  margin:2rem 0rem;
+  padding-top:1rem;
+}
+#ingrediente
+{
+  display:inline-block;
+  position:relative;
+  vertical-align:top;
+  width:20rem;
+  height:15rem;
+  padding: 10px 5px;
+  justify-self: center;
+  background-color: #F8E4CA;
+  box-shadow: 5px 5px 5px gray;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 1rem;
+  text-align:center;
+  justify-self:center;
+}
+#ingrediente h3
+{
+  margin-top:1rem;
+}
+#content
+{
+  text-align:center;
+}
+#passo
+{
+  display:inline-block;
+  position:relative;
+  vertical-align:top;
+  width:18rem;
+  height:3rem;
+  padding: 10px 5px;
+  justify-self: center;
+  background-color: #F8E4CA;
+  box-shadow: 5px 5px 5px gray;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 1rem;
+  text-align:center;
+  padding:2rem;
 }
